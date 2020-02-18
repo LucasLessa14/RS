@@ -1,0 +1,51 @@
+.img-logo {
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.img-produto {
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao-form {
+    margin: 30% 20%;
+    color:white;
+    font-size: 20pt;
+    padding: 10px 10px;
+    background-color: green;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.padding-nav {
+    margin: 0px 25px;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+}

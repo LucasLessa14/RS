@@ -1,0 +1,10 @@
+version: "3"
+services:
+    node-server:
+        build:
+            context: .
+            dockerfile: ./dockers/nodejs/Dockerfile
+        restart: unless-stopped
+        command: node index.js
+        ports: 
+            - 80:80
